@@ -3,9 +3,22 @@
     padding: 0;
 
 }
+
+.header{
+    display: flex;
+    
+}
 h1{
     background-color: brown;
-    text-align: center;
     color: aliceblue;
     padding: 10px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    flex-direction: column;
+    
 }
